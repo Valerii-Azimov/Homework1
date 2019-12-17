@@ -1,0 +1,66 @@
+.main-menu{
+    text-transform: uppercase;
+    font-family:Myriad pro;
+    font-size: 14px;
+    list-style: none;
+    text-align: center;  
+}
+body{
+    font-family: Playfair Display;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+.main-menu a{
+  color: #626262;
+font-weight: 400;
+text-transform: uppercase;
+text-decoration: none;
+line-height: 16px;
+/* display: inline-block; */
+}
+.article-list{
+    list-style: none;
+}
+.article-list-name{
+    color: #626262;
+    font-size: 30px;
+    line-height: 36px; 
+}
+.article-list-status{
+    line-height: 17px;
+}
+.article-list-status{
+    font-family: 'Ubuntu Light', arial;
+}
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden{
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+ul{
+    width: auto;
+    margin: auto;    
+}
+li{
+    display: inline-block;
+    padding: 10px 0px 10px 40px;
+
+}
+.article-list-item{
+    display: inline-block;
+    height: 100px;
+    width: 593px;
+        
+}
+/* *{
+    outline: 1px solid red;
+} */

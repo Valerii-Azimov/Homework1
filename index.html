@@ -6,71 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-        li {
-            list-style-type: none;
-        }
-    </style>
+    
+    <link rel="stylesheet" href= "link href= "https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="http://allfont.ru/allfont.css?fonts=ubuntu-light" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    <h1 class="visually-hidden">"Filosofy"</h1>
     <header>
         <nav class="main-nav">
             <ul class="main-menu">
-                <li class="main-menu-item">
+                <li class="main-menu-link">
                     <a href="#">lifestyle</a>
                 </li>
-                <li class="main-menu-item">
+                <li class="main-menu-link">
                     <a href="#">photodiary</a>
                 </li>
-                <li class="main-menu-item">
+                <li class="main-menu-link">
                     <a href="#">music</a>
                 </li>
-                <li class="main-menu-item">
+                <li class="main-menu-link">
                     <a href="#">travel</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <ul>
-                <li>
-                    <img src="img/1.jpg" alt="girl">
-                    <p>Lifestule</p>
-                    <h2>More then just a music festival</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga maxime aut dolorum, blanditiis
+        <section class="article">
+            <ul class="article-list">
+                <li class="article-list-item">
+                    <img class="article-list-image" src="img/1.jpg" alt="girl" width="420" height="270">
+                    <p class="article-list-status">Lifestule</p>
+                    <h3 class="article-list-name">More then just a music festival</h3>
+                    <p class="article-list-about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga maxime aut dolorum, blanditiis
                         fugit sapiente vel porro necessitatibus praesentium, omnis inventore. Asperiores officiis natus
                         suscipit voluptatibus fugit commodi quaerat esse?</p>
                 </li>
-                <li>
-                    <img src="img/2.jpg" alt="coffee">
-                    <p>lifestule</p>
-                    <h2>Life tastes better with coffee</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga maxime aut dolorum, blanditiis
+                <li class="article-list-item">
+                    <img class="article-list-image" src="img/2.jpg" alt="coffee" width="420" height="270">
+                    <p class="article-list-status">Lifestule</p>
+                    <h3 class="article-list-name">Life tastes better with coffee</h3>
+                    <p class="article-list-about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga maxime aut dolorum, blanditiis
                         fugit sapiente vel porro necessitatibus praesentium, omnis inventore. Asperiores officiis natus
                         suscipit voluptatibus fugit commodi quaerat esse?</p>
                 </li>
-                <li>
-                    <img src="img/3.jpg" alt="girls">
-                    <p>photodiary</p>
-                    <h2>American dream</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga maxime aut dolorum, blanditiis
+                <li class="article-list-item">
+                    <img class="article-list-image" src="img/3.jpg" alt="girls" width="420" height="270">
+                    <p class="article-list-status">Photodiary</p>
+                    <h3 class="article-list-name">American dream</h3>
+                    <p class="article-list-about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga maxime aut dolorum, blanditiis
                         fugit sapiente vel porro necessitatibus praesentium, omnis inventore. Asperiores officiis natus
                         suscipit voluptatibus fugit commodi quaerat esse?</p>
                 </li>
-                <li>
-                    <img src="img/4.jpg" alt="girl">
-                    <p>photodiary</p>
-                    <h2>A day exploring the alps</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga maxime aut dolorum, blanditiis
+                <li class="article-list-item">
+                    <img class="article-list-image" src="img/4.jpg" alt="girl" width="420" height="270">
+                    <p class="article-list-status">Photodiary</p>
+                    <h3 class="article-list-name">A day exploring the alps</h3>
+                    <p class="article-list-about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga maxime aut dolorum, blanditiis
+                        fugit sapiente vel porro necessitatibus praesentium, omnis inventore. Asperiores officiis natus
+                        suscipit voluptatibus fugit commodi quaerat esse?</p>
+                </li>
+                <li class="article-list-item">
+                    <img class="article-list-image" src="img/5.jpg" alt="girl" width="420" height="270">
+                    <p class="article-list-status">Lifestule</p>
+                    <h3 class="article-list-name">Top 10 song for running</h3>
+                    <p class="article-list-about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga maxime aut dolorum, blanditiis
+                        fugit sapiente vel porro necessitatibus praesentium, omnis inventore. Asperiores officiis natus
+                        suscipit voluptatibus fugit commodi quaerat esse?</p>
+                </li>
+                <li class="article-list-item">
+                    <img class="article-list-image" src="img/6.jpg" alt="girl" width="420" height="270">
+                    <p class="article-list-status">Lifestule</p>
+                    <h3 class="article-list-name">A day exploring the alps</h3>
+                    <p class="article-list-about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga maxime aut dolorum, blanditiis
                         fugit sapiente vel porro necessitatibus praesentium, omnis inventore. Asperiores officiis natus
                         suscipit voluptatibus fugit commodi quaerat esse?</p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer><a href="#">load more</a></footer>
+    <footer>
+        <button class="load">load more</button>
+    </footer>
 </body>
 
 </html>
