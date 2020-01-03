@@ -21,6 +21,15 @@ line-height: 16px;
 }
 .article-list{
     list-style: none;
+    margin: 0; 
+   padding: 0;
+}
+.article-list-item{
+    display: inline-block;
+    font-weight: 420;
+    height: 514;
+    /* padding: 10px 0px 10px 0px; */
+      
 }
 .article-list-name{
     color: #626262;
@@ -50,17 +59,12 @@ ul{
     width: auto;
     margin: auto;    
 }
-li{
+.main-menu-link{
     display: inline-block;
     padding: 10px 0px 10px 40px;
 
 }
-/* .article-list-item{
-    display: inline-block;
-    height: 100px;
-    width: 593px;
-        
-} */
+ 
 /* *{
     outline: 1px solid red;
 } */
