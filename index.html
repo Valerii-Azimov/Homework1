@@ -10,12 +10,14 @@
     <link rel="stylesheet" href= "link href= "https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="http://allfont.ru/allfont.css?fonts=ubuntu-light" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./style/normalize.css">
 </head>
 
 <body>
     <h1 class="visually-hidden">"Filosofy"</h1>
     <header>
-        <nav class="main-nav">
+        <div class="wraper">
+            <nav class="main-nav">
             <ul class="main-menu">
                 <li class="main-menu-link">
                     <a href="#">lifestyle</a>
@@ -30,9 +32,11 @@
                     <a href="#">travel</a>
                 </li>
             </ul>
-        </nav>
+            </nav>
+        </div>
     </header>
     <main>
+        <div class="wraper">
         <section class="article">
             <ul class="article-list">
                 <li class="article-list-item">
@@ -67,7 +71,7 @@
                         fugit sapiente vel porro necessitatibus praesentium, omnis inventore. Asperiores officiis natus
                         suscipit voluptatibus fugit commodi quaerat esse?</p>
                 </li>
-                <li class="article-list-item">
+                <li class="article-list-item wrp">
                     <img class="article-list-image" src="img/5.jpg" alt="girl" width="420" height="270">
                     <p class="article-list-status">Lifestule</p>
                     <h3 class="article-list-name">Top 10 song for running</h3>
@@ -75,7 +79,7 @@
                         fugit sapiente vel porro necessitatibus praesentium, omnis inventore. Asperiores officiis natus
                         suscipit voluptatibus fugit commodi quaerat esse?</p>
                 </li>
-                <li class="article-list-item">
+                <li class="article-list-item wrp">
                     <img class="article-list-image" src="img/6.jpg" alt="girl" width="420" height="270">
                     <p class="article-list-status">Lifestule</p>
                     <h3 class="article-list-name">A day exploring the alps</h3>
@@ -85,9 +89,12 @@
                 </li>
             </ul>
         </section>
+        </div>
     </main>
-    <footer>
-        <button class="load">load moree</button>
+    <footer class="footer">
+        <div class="wraper">
+        <div class="button"><button class="botton_load">Load moree</button></div>
+        </div>
     </footer>
 </body>
 
