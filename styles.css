@@ -99,10 +99,7 @@ overflow: hidden;
     margin: auto;    
 }
 /* ================footer============ */
-.footer{
-    height: 185px;
-
-}
+/* cd */
 .botton_load{
     height: 60px;
     width: 164px;
@@ -115,4 +112,5 @@ overflow: hidden;
     text-align: center;
     display: block;
     padding-top: 55px;
+    padding-bottom: 70px;
 }
